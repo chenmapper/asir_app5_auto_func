@@ -54,7 +54,7 @@ pip install streamlit pandas openpyxl numpy
 1. 啟動應用：
 
    ```bash
-   streamlit run asir_app5_通用加入公式.py
+   streamlit run asir_app5_v01.py
    ```
 2. 在瀏覽器側邊欄選擇功能模式，依提示上傳 `.xlsx` 檔案並設定參數。
 3. 點擊「生成」或「開始 SUM 檢測」，公式將自動插入至對應工作表。
@@ -66,7 +66,7 @@ pip install streamlit pandas openpyxl numpy
 
 ```
 case5/
-├─ asir_app5_通用加入公式.py    # 主程式
+├─ asir_app5_v01.py    # 主程式
 ├─ README.md                     # 專案說明（本檔）
 ├─ requirements.txt              # 依賴清單
 └─ .gitignore                    # 忽略規則
